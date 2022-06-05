@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.layout{
+    position: relative;
+}
+
+.sidebar {
+    position: absolute;
+    width: 220px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: #212121;
+}
+
