@@ -11,7 +11,7 @@ body {
     font-family: 'Roboto';
     font-weight: 400;
 
-}
+}  
 
 :root {
     --color-black12: #121212;
@@ -43,14 +43,13 @@ ul {
     padding: 16px 20px 16px 0;
     overflow-y: auto;
 }
-
+ 
 .hambarger {
    
     border: none;
     cursor: pointer;
     background: none;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 20px;     
     padding: 0;
 }
 
