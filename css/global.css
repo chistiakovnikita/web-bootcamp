@@ -6,8 +6,14 @@
     --color-black38: #383838;
     --color-black47: #474747;
     --color-white: #FFFFFF;
-    --color-grey: #AAAAAA;
+    --color-gray: #AAAAAA;
     --color-blue: #3DA6FF;
+
+    --breackpoint-sm: 576px;
+    --breackpoint-md: 768px;
+    --breackpoint-lg: 992px;
+    --breackpoint-xl: 1200px;
+    --breackpoint-xxl: 1400px;
 }
 
 * {
