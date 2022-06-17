@@ -1,133 +1,30 @@
-
-h1, h2, h3, h4, h5, h6{
-    margin: 0;
-    padding: 0;
-}
-
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto';
-    font-weight: 400;
-
-}
-
-:root {
-    --color-black12: #121212;
-    --color-black18: #181818;
-    --color-black21: #212121;
-    --color-black32: #323232;
-    --color-black38: #383838;
-    --color-black47: #474747;
-    --color-white: #FFFFFF;
-    --color-grey: #AAAAAA;
-    --color-blue: #3DA6FF;
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-
-.sidebar {
-    width: 220px;
-    height: 100vh;
-    background-color: var(--color-black21);
-    padding: 16px 20px 16px 0;
-    overflow-y: auto;
-}
-
-.hambarger {
-   
-    border: none;
-    cursor: pointer;
-    background: none;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 0;
-}
-
-
-.logo-wrapper {
-    margin-bottom: 28px;
-}
-
-.menu-items {
-    padding-bottom: 16px;
-    padding-top: 16px;
-    border-bottom: 1px solid var(--color-black38);
-
-}
-.menu-items:first-child{
-    padding-top: 0;
-}
+@import url("./global.css");
+@import url("./components/sidebar.css");
+@import url("./components/layout.css");
 
 
 
 
 
-.menu-items li a {
-    position: relative;
-    display: block;
-    padding: 10px 0 10px 24px;
-    font-weight: 400;
-    text-decoration: none;
-    color: var(--color-white);
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.menu-items li:hover{
-    background-color: var(--color-black38);
-}
-
-.menu-items li img {
-    margin-right: 20px;
-    vertical-align: middle;
-
-}
-
-::-webkit-scrollbar{
-    width: 7px;
-
-}
-
-::-webkit-scrollbar-thumb{
-    
-    background-color: #606060;
-    border-radius: 12px;
-}
-.menu-title{
-    font-weight: 600;
-    font-size: 13px;
-    color: var(--color-grey);
-    text-transform: uppercase;
-    line-height: 16px;
-    padding-left: 21px; 
-    margin: 16px 0 -8px;
-
-}
 
 
-.menu-items-subscriptions li a ::after{
-    content:'';
-    width: 4px;
-    height: 4px;
-    background-color:var(--color-blue);
-    border-radius: 50%;
-    position: absolute;
-    display: block;
-    top: 50%;
-    right: 0;
 
-}                                                                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    

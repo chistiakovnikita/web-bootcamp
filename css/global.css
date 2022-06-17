@@ -1,0 +1,40 @@
+:root {
+    --color-black12: #121212;
+    --color-black18: #181818;
+    --color-black21: #212121;
+    --color-black32: #323232;
+    --color-black38: #383838;
+    --color-black47: #474747;
+    --color-white: #FFFFFF;
+    --color-grey: #AAAAAA;
+    --color-blue: #3DA6FF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+   
+    font-family: 'Roboto';
+    font-weight: 400;
+
+}
+
+
+::-webkit-scrollbar{
+    width: 7px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    
+    background-color: #606060;
+    border-radius: 12px;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}

@@ -13,22 +13,23 @@
     <meta name="theme-color" content="#ffffff">
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/libs/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="layout">
         <aside class="sidebar">
-<div class="logo-wrapper">
-            <button class="hambarger" type="button">
-                <img src="./images/icons/hambarger.svg" alt="hambarger">
-            </button>
-            <a href="/">
-                <img class="logo" src="./images/icons/logo.svg" alt="logo">
-            </a>
-        </div>
+            <div class="logo-wrapper">
+                <button class="hambarger" type="button">
+                    <img src="./images/icons/hambarger.svg" alt="hambarger">
+                </button>
+                <a href="/">
+                    <img class="logo" src="./images/icons/logo.svg" alt="logo">
+                </a>
+            </div>
 
             <nav>
                 <ul class="menu-items">
@@ -59,7 +60,7 @@
                 </ul>
 
 
-                
+
 
 
                 <ul class="menu-items">
@@ -104,15 +105,15 @@
                         </select>
                     </form>
                 </ul>
-               
 
 
-                
+
+
 
 
                 <h3 class="menu-title">SUBSCRIPTIONS</h3>
 
-                <!-- использовал SVG т.к. JPEG поплыл -->
+                
 
                 <ul class="menu-items menu-items-subscriptions">
                     <li>
@@ -156,6 +157,11 @@
 
 
         </aside>
+        <div class="content">
+            <header class="header"></header>
+            <div class="tag-filters"></div>
+            <main class="main"></main>
+        </div>
     </div>
 
 </body>

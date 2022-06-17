@@ -1,0 +1,82 @@
+.sidebar {
+    
+    background-color: var(--color-black21);
+    padding: 16px 20px 16px 0;
+    overflow-y: auto;
+}
+
+.hambarger {
+   
+    border: none;
+    cursor: pointer;
+    background: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.logo-wrapper {
+    margin-bottom: 28px;
+}
+
+.menu-items {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-bottom: 1px solid var(--color-black38);
+
+}
+.menu-items:first-child{
+    padding-top: 0;
+}
+
+.menu-items li a {
+    position: relative;
+    display: block;
+    padding: 10px 0 10px 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.menu-items li:hover{
+    background-color: var(--color-black38);
+}
+
+.menu-items li img {
+    margin-right: 20px;
+    vertical-align: middle;
+
+}
+
+
+.menu-title{
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--color-grey);
+    text-transform: uppercase;
+    line-height: 16px;
+    padding-left: 21px; 
+    margin: 16px 0 -8px;
+
+}
+
+
+.menu-items-subscriptions li a ::after{
+    content:'';
+    width: 4px;
+    height: 4px;
+    background-color:var(--color-blue);
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 0;
+
+}    
+
+
