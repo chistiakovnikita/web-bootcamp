@@ -1,11 +1,17 @@
+.header{
+    display: flex;
+}
+
+
 .header__logo{
-    display: none;
+    visibility: visible;
 }
 
 
 @media screen and (max-width:768) {
     .header__logo{
         display: block;
+        visibility: visible;
     }
     
 }
