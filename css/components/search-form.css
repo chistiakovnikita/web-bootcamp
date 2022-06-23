@@ -16,6 +16,7 @@
 
 .search-form__button{
     background: var(--color-black32);
+    border-radius: 0 2px 2px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +24,7 @@
     height: 36px;
     border: none;
     cursor: pointer;
-    transition: .5s background;
+    transition: var(--transition) background;
 }
 
 

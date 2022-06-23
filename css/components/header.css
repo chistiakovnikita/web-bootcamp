@@ -8,9 +8,14 @@
 }
 
 
-@media screen and (max-width:768) {
+.header__search-voice{
+    margin-left: 8px;
+}
+
+
+@media screen and (max-width: 768) {
     .header__logo{
-        display: block;
+       
         visibility: visible;
     }
     
